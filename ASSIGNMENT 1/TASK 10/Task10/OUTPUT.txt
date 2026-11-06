@@ -1,0 +1,7 @@
+MEASUREMENT AND COMPARISON
+Run copy_file with 1, 512 and 4096-byte buffers
+Use strace -c to count system calls
+Use /usr/bin/time -v to measure resource use
+Benchmark 1000 processes versus 1000 threads
+Expected trend: threads usually need less creation overhead
+RESULT: Record timings from your own machine for final report.
