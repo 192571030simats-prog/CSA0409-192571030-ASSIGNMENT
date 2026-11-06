@@ -1,0 +1,8 @@
+FINAL SMART HOSPITAL OS PLAN
+Monitors  : validated hard RTOS + watchdog
+Tablets   : managed mobile OS + encryption
+Desktops  : supported desktop OS + access control
+Database  : clustered server OS + replication + fail-over
+MRI       : SMP server OS + high-memory I/O
+Partners  : distributed encrypted APIs
+RESULT: Mixed architecture scales to three hospitals.
