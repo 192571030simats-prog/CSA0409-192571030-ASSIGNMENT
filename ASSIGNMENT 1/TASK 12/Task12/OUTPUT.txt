@@ -1,0 +1,7 @@
+DAY-4 DESIGN CHALLENGE: HOME + CLOUD
+Home devices: embedded RTOS; local alarm decision
+Internet link: encrypted transmission + retry + buffering
+Cloud records: distributed service + replication + backups
+Security: authentication, role-based access, audit logs
+Decision: MODIFY original design, retain local real-time safety.
+RESULT: Cloud latency must not be in the critical alarm path.
