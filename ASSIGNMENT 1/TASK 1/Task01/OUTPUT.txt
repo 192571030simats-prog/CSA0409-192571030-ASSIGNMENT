@@ -1,0 +1,8 @@
+SMART HOSPITAL REQUIREMENT EVALUATION
+Bedside monitors : response < 10 ms, safety, reliability
+Nurse tablets     : battery, wireless, security
+Doctor desktops   : usability, privacy, multitasking
+Patient database  : availability, integrity, recovery
+MRI server        : parallel throughput, high memory
+Partner hospitals : secure communication, interoperability
+RESULT: One general-purpose OS is not suitable for every environment.
