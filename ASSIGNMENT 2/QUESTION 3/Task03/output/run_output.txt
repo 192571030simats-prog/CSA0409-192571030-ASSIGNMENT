@@ -1,0 +1,4 @@
+Pool  1 threads: 0.001730 seconds, checksum=3033632
+Pool  4 threads: 0.000672 seconds, checksum=3033632
+Pool  8 threads: 0.001166 seconds, checksum=3033632
+Pool 16 threads: 0.003235 seconds, checksum=3033632
