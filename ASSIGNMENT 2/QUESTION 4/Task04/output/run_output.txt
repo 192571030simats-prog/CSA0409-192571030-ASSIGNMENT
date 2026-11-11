@@ -1,0 +1,2 @@
+PIPE analyser: 6 readings, average 35.5, max 41
+SHARED memory: 6 readings, average 35.5, max 41
