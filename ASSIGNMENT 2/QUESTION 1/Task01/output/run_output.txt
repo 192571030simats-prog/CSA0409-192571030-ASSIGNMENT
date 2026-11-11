@@ -1,0 +1,11 @@
+Parent PID: 598
+Parent created child PID: 600
+Parent PID: 598
+Child PID: 600, PPID: 598
+Name:	task01
+State:	R (running)
+Pid:	600
+PPid:	598
+    PID    PPID S COMMAND
+    600     598 Z task01
+Child exit status: 0
