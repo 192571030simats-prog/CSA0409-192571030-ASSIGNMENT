@@ -1,0 +1,9 @@
+$ sh build.sh
+Built static_demo, dynamic_demo and runtime_demo
+$ ./static_demo
+linked result=737
+pid=2140
+main address=0x55a1...
+$ ldd dynamic_demo
+libcrypto_demo.so => ./libcrypto_demo.so
+libc.so.6 => /lib/.../libc.so.6
