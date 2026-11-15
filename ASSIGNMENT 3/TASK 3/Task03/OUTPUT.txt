@@ -1,0 +1,9 @@
+$ ./segmentation
+(0,0) -> physical 1000
+(1,100) -> physical 4100
+(2,299) -> physical 8299
+(1,1200) -> segmentation fault (limit violation)
+(0,499) -> physical 1499
+(2,300) -> segmentation fault (limit violation)
+(1,700) -> physical 4700
+(0,250) -> physical 1250
