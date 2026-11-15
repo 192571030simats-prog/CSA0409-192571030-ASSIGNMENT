@@ -1,0 +1,9 @@
+$ ./memory_lock
+memory=4194304 bytes locked=yes max_sweep_ns=...
+$ python3 working_set_sim.py
+RAM budget: 2048 MB
+real_time_control        128 MB
+machine_learning        1536 MB
+logging                   128 MB
+reserved for OS/headroom: 256 MB
+fourth task 500 MB fits: False
