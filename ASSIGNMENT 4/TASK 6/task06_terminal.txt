@@ -1,0 +1,8 @@
+$ gcc -std=c11 -Wall -Wextra /mnt/data/CSA04_Assignment4/Task06/streaming_capacity.c -o /mnt/data/CSA04_Assignment4/Task06/streaming_capacity
+$ /mnt/data/CSA04_Assignment4/Task06/streaming_capacity
+Video catalogue: 1200 videos x 1.0 GB = 1200.0 TB
+With 2 replicas: 2400.0 TB raw capacity
+Peak concurrent viewers: 20000
+Peak delivery bandwidth: 80.0 Gbit/s
+20 origin servers at 5 Gbit/s each: 100.0 Gbit/s
+Recommendation: SSD cache for hot first-week content; HDD/object store for archive; CDN for delivery.
