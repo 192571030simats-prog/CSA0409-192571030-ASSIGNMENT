@@ -1,0 +1,1 @@
+This task requires the same application to be deployed on bare Linux, a VM and Docker. The script prints the reproducible measurement plan; fill the results table using actual host measurements.
