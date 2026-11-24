@@ -1,0 +1,20 @@
+services:
+  portal:
+    build: .
+    ports:
+      - "8000:8000"
+    cpus: 0.50
+    mem_limit: 512m
+    depends_on:
+      - database
+  database:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: results
+      POSTGRES_USER: portal
+      POSTGRES_PASSWORD: change-this-for-local-testing
+    volumes:
+      - result_data:/var/lib/postgresql/data
+    mem_limit: 1g
+volumes:
+  result_data:
