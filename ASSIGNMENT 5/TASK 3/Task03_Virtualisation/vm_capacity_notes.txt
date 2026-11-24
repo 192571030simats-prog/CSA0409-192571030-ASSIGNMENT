@@ -1,0 +1,10 @@
+Virtual machine planning example
+Host RAM: 64 GiB
+Hypervisor and host reserve: 8 GiB
+Available for guests: 56 GiB
+Portal VM: 8 GiB
+Database VM: 16 GiB
+Monitoring VM: 4 GiB
+Remaining headroom: 28 GiB
+
+Type-1 hypervisors run directly on server hardware. Type-2 hypervisors run as applications on a host OS. KVM is integrated with the Linux kernel and is a practical type-1 style production choice.
